@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://d1yadggbulpbp"]
+
+[ext_resource type="Texture2D" uid="uid://dlwhiqc1ma8bs" path="res://Dual Wield Horus.png" id="1_bvhk1"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2, 1)
+
+[node name="DualWieldHorus" type="Sprite2D" parent="."]
+position = Vector2(4, -37)
+scale = Vector2(0.386842, 0.407156)
+texture = ExtResource("1_bvhk1")
